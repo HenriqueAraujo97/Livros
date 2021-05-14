@@ -9,6 +9,7 @@ class BdLivrosOpenHelper(context: Context?) : SQLiteOpenHelper(context, NOME_BAS
     override fun onCreate(db: SQLiteDatabase?) {
         if (db != null) {
             TabelaCategorias(db).cria()
+            TabelaLivros(db).cria()
         }
 
     }

@@ -10,4 +10,5 @@ class TabelaCategorias(db: SQLiteDatabase) {
         db.execSQL("CREATE TABLE categorias(_id INTEGER PRIMARY KEY AUTOINCREMENT, nome TEXT NOT NULL) ")
     }
 
+
 }
